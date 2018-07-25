@@ -1,0 +1,67 @@
+.RegistrationForm {
+	display: flex;
+	flex-direction: column;
+
+	&-content {
+		padding: 0 10px;
+		border: @border-deafult;
+		border-radius: 5px;
+		background: #FCF8F6;
+	}
+
+	&-image {
+		height: 187.5px;
+	}
+
+	&-login {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	&-loginName {
+		padding: 10px 0;
+		width: @size-adaptive;
+		box-sizing: border-box;
+	}
+
+	&-loginName--login {
+		padding-left: 10px;
+		box-sizing: border-box;
+		width: @size-adaptive;
+		height: 40px;
+		border: none;
+		border: @border-deafult;
+		border-radius: 5px;
+	}
+
+	&-loginPassword {
+		padding: 10px 0;
+		padding-top: 0;
+		width: @size-adaptive;
+		box-sizing: border-box;
+	}
+
+	&-loginPassword--password {
+		padding-left: 10px;
+		box-sizing: border-box;
+		width: @size-adaptive;		
+		height: 40px;
+		border: none;
+		border: @border-deafult;
+		border-radius: 5px;
+	}
+
+	&-loginButton {
+		width: @size-adaptive;
+	}
+
+	&-additional {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: flex-end;
+		font-size: 12px;
+		padding: 10px 0;
+	}
+}
